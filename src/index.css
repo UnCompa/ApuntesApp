@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.modelo {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 100vh;
+    grid-template-areas: 
+    "create dashboard";
+}
